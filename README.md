@@ -30,11 +30,12 @@ This project also allows the user to manually ask for camera permissions (at you
 before displaying the native camera access alert by setting `shouldAskForPermissions` to false
 
     let barcodeScanner = BarcodeScannerDemo()
+
 	// Set some properties available to customize
-	barcodeScanner.shouldAskForPermissions = true
-	barcodeScanner.shouldShowBarcodeRegion = true
+	barcodeScanner.shouldAskForPermissions = true // Automatically will ask for camera permissions
+	barcodeScanner.shouldShowBarcodeRegion = true // Will show a green rectagle over scanned area
 	barcodeScanner.highlightColor = .greenColor()
-	barcodeScanner.shouldPauseAfterScannedItem = true
+	barcodeScanner.shouldPauseAfterScannedItem = true // Will pause the camera after barcode has been scanned
 
 You can download and see how the Demo for usages.
 
