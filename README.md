@@ -23,8 +23,8 @@ control the usage of the camera and efficiency of your app.
 You can also add custom user interface elements on top of the camera by creating a view
 and setting the `customOverlayView` property.
 
-Note that the customization flags must be set before the `viewDidAppear` (on the initialization)
-of the view controller, and the custom UI property can be set inside the `viewDidLoad`
+Note that the customization flags must be set before the viewDidAppear (on the initialization)
+of the view controller, and the custom UI property can be set inside the viewDidLoad
 
 This project also allows the user to manually ask for camera permissions (at your own time)
 before displaying the native camera access alert by setting `shouldAskForPermissions` to false
