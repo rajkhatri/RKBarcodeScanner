@@ -41,7 +41,7 @@ before displaying the native camera access alert by setting `shouldAskForPermiss
 	barcodeScanner.highlightColor = .greenColor()
 	barcodeScanner.shouldPauseAfterScannedItem = true // Will pause the camera after barcode has been scanned
 
-You can download and see how the Demo for usages.
+You can download and see the Demo for usages.
 
 ## Notes
 Requires iOS 8 or greater. Written in Swift 2.0
