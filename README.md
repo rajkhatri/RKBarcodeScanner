@@ -22,6 +22,10 @@ control the usage of the camera and efficiency of your app.
 
 You can also add custom user interface elements on top of the camera by creating a view
 and setting the `customOverlayView` property.
+	
+	// This will add the 'backButton' on top of the camera
+	self.customOverlayView = UIView(frame: self.view.frame)
+	self.customOverlayView?.addSubview(backButton)
 
 Note that the customization flags must be set before the viewDidAppear (on the initialization)
 of the view controller, and the custom UI property can be set inside the viewDidLoad
